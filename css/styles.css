@@ -6,6 +6,8 @@ https://coolors.co/d1b1c8-b1b7d1-9b9fb5-8c7284-7a6174
 #9B9FB5 - cadet grey
 #8C7284 - rocket metallic
 #7A6174 - old lavender
+#63ADF2 - blue jeans
+#545E75 - black coral
 */
 
 
@@ -16,6 +18,12 @@ body {
 }
 img {
     width: 300px;
+}
+a {
+    color: #63ADF2;
+}
+a:hover {
+    text-decoration: none;
 }
 
 
@@ -31,6 +39,16 @@ header {
 .projects {
     background: #D1B1C8;
 }
+.projects a {
+    color: #F7FFF7;
+    background: #373F47;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.projects a:hover {
+    background: rgba(55, 63, 71, 80%);
+}
 
 /* Work Experience
 ---------------------------------*/
@@ -45,7 +63,7 @@ header {
 /* Contact Info
 ---------------------------------*/
 footer {
-    background: darkgrey;
+    background: #545E75;
     color: #F7FFF7;
 
 }
