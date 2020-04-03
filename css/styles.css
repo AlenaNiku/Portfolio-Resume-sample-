@@ -17,6 +17,9 @@ body {
     color: #343434;  /* dark grey, almost black */
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
 }
 img {
     width: 300px;
@@ -27,7 +30,16 @@ a {
 a:hover {
     text-decoration: none;
 }
+h1 {
+    font-size: 100px;
+    line-height: 1; /* overrides line-height from the body */
+}
 h2 {
+    font-size: 45px;
+}
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
     margin: 0;
 }
 .content-wrap {
