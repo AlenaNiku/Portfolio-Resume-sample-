@@ -1,3 +1,52 @@
+/*
+COLOR PALETTE
+https://coolors.co/d1b1c8-b1b7d1-9b9fb5-8c7284-7a6174
+#D1B1C8 - pink lavender
+#B1B7D1 - pastel blue
+#9B9FB5 - cadet grey
+#8C7284 - rocket metallic
+#7A6174 - old lavender
+*/
+
+
+/* Global styles
+---------------------------------*/
+body {
+    color: #343434;  /* dark grey, almost black */
+}
 img {
     width: 300px;
 }
+
+
+/* Profile
+---------------------------------*/
+header {
+    background: #B1B7D1;
+    color: #F7FFF7;
+}
+
+/* Projects
+---------------------------------*/
+.projects {
+    background: #D1B1C8;
+}
+
+/* Work Experience
+---------------------------------*/
+.work-experience {
+    background: #8C7284;
+}
+
+/* Education
+---------------------------------*/
+
+
+/* Contact Info
+---------------------------------*/
+footer {
+    background: darkgrey;
+    color: #F7FFF7;
+
+}
+
