@@ -56,12 +56,12 @@ h1, h2 {
 }
 
 
-
 /* Profile
 ---------------------------------*/
 header {
     background: #B1B7D1;
     color: #F7FFF7;
+    text-align: center;
 }
 
 /* Projects
@@ -108,6 +108,16 @@ header {
 footer {
     background: #545E75;
     color: #F7FFF7;
-
+    text-align: center;
+}
+.contact-list {
+    list-style-type: none;      /* remove bullets */
+    padding: 0;
+    display: flex;         /* alignes items horisontally */
+    justify-content: center;
+}
+.contact-list a {
+    padding: 15px;  /* adds space btwn links */
+    display: inline-block;
 }
 
