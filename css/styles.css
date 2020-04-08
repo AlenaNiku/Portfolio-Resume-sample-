@@ -49,14 +49,17 @@ h1, h2 {
     font-weight: 400;
     margin: 0;
 }
+h3 {
+    margin-bottom: 0;
+}
+ul {
+    display: inline-block;
+}
 .content-wrap {
     max-width: 800px;  /* responsive */
     width: 85%;
     margin: 0 auto;
     padding: 50px 0;
-}
-h3 {
-    margin-bottom: 0;
 }
 .item-details h3 + p {
     font-style: italic;
@@ -133,7 +136,7 @@ footer {
     padding: 0;
 }
 .contact-list a {
-    padding: 15px;  /* adds space btwn links */
+    padding: 15px;       /* adds space btwn links */
     display: inline-block;
 }
 
